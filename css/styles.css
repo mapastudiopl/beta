@@ -88,3 +88,11 @@ header.main {height: 200vh;}
   .container_image .title_wrapper h1 {
 	color: var(--global--color-white);
   }
+  .service-image {overflow:hidden; }
+.service-image img {transition: transform .5s ease; position: relative;}
+.service-image:hover img {transform: scale(1.05);}
+.service-image .caption {position: absolute; z-index: 990; bottom: 0; left: 0; right: 0; top: 0; background-color: var(--global--color-black-70); text-align: center; opacity: 0; transition: .4s all ease; color: #eaeaea;}
+.service-image .caption {padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.service-image:hover .caption {opacity: 1;}
+.service-image .caption-title{line-height: 1.25; font-size: 24px; position: relative; letter-spacing: 0.12em}
+.service-image .caption-text {max-width: 340px; font-size: 16px; letter-spacing: 0.1em;}
