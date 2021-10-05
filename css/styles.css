@@ -78,3 +78,13 @@ header.main {height: 200vh;}
 	/* fallback text color */
 	color: var(--global--color-black);
   }
+  .container_image {
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	top: 100vh;
+  }
+  .container_image .title_wrapper h1 {
+	color: var(--global--color-white);
+  }
