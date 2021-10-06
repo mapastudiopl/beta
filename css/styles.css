@@ -88,6 +88,11 @@ header.main {height: 200vh;}
   .container_image .title_wrapper h1 {
 	color: var(--global--color-white);
   }
+  main p:first-of-type {
+    font-size: 1.35em;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+} 
   .service-image {overflow:hidden; }
 .service-image img {transition: transform .5s ease; position: relative;}
 .service-image:hover img {transform: scale(1.05);}
