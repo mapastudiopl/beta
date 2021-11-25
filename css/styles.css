@@ -190,7 +190,7 @@ h1 + .divider, h2 + .divider, h3 + .divider, h4 + .divider {margin-top: 20px;}
 		content: '';
 		-webkit-transition: all 0.35s ease;
 		transition: all 0.35s ease;
-		/*background-color: var(--global--color-black);*/
+		background-color: var(--global--color-black);
 		width: 0;
 	  }
 	  .navi_bar a:before {
