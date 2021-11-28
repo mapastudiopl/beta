@@ -25,6 +25,7 @@
 span.menu-icon { display: flex; align-items: center; height: 60px; width: 60px; line-height: 60px;  color: #f3f3f2; padding:0; position: absolute; right: 2em; top: 2em; }
 span.menu-icon svg {margin: 0 auto; display: block}
 /*end topheader*/
+article {display: table; width: 100%; table-layout: fixed; height: 100vh;}
 section.main {height: 200vh;}
 .second_container {
 	/* hide fixed overflow contents */
