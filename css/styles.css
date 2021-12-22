@@ -21,6 +21,8 @@
 	--links-normal-color: rgba(204,0,0,1);
 	--links-hover-color: rgba(176, 42, 55, 1);
 }
+html{scroll-behavior: smooth;}
+body {text-rendering: optimizeSpeed;}
 .site-header{display: grid; place-content: center; text-align: center;}
 span.menu-icon { display: flex; align-items: center; height: 60px; width: 60px; line-height: 60px;  color: #f3f3f2; padding:0; position: absolute; right: 2em; top: 2em; }
 span.menu-icon svg {margin: 0 auto; display: block}
