@@ -23,6 +23,7 @@
 }
 html{scroll-behavior: smooth;}
 body {text-rendering: optimizeSpeed;}
+.skip-nav-link {background-color: var(--global--color-red); padding: 0.5rem 1.5rem; position: absolute; left: 0.5rem; transform: translateY(-120%); transition: transform 325ms ease-in;}
 .site-header{display: grid; place-content: center; text-align: center;}
 span.menu-icon { display: flex; align-items: center; height: 60px; width: 60px; line-height: 60px;  color: #f3f3f2; padding:0; position: absolute; right: 2em; top: 2em; }
 span.menu-icon svg {margin: 0 auto; display: block}
